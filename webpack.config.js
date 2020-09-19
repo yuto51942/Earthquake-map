@@ -4,7 +4,7 @@ module.exports = {
     mode: 'production',
     entry: './src/ts/index.ts',
     output: {
-        path: path.join(__dirname, "./src/static/js"),
+        path: path.join(__dirname, "static/js"),
         filename: 'bundle.js'
     },
     module: {
