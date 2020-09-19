@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
     <title>Earthquake Map</title>
 </head>
@@ -18,7 +18,7 @@
         </div>
     </header>
     <div class="map" id="map">
-        <script src="static/js/bundle.js"></script>
+        <script src="{{ url_for('static', filename='js/bandle.js') }}"></script>
     </div>
 </body>
 
